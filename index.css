@@ -1,0 +1,117 @@
+html {
+  font-family: 'Josefin Slab', 'Helvetica Neue', sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+}
+
+a {
+  color: #2c9b2c;
+  -webkit-transition: color, background-color .1s ease;
+  transition: color, background-color .1s ease;
+}
+a:hover {
+  color: #4aa84a;
+}
+a:visited {
+  color: #9b51ba;
+}
+
+h2 {
+  font-size: 200%;
+  margin: 0 0 .2em;
+}
+
+h3 {
+  font-size: 150%;
+  margin: 0 0 .2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+.banner {
+  width: 100%;
+  background-color: #aaa;
+  background-image: url('banner.png');
+  background-size: cover;
+  padding: 3em;
+  margin-bottom: 2em;
+  box-shadow: 0px 1px 1px #ccc;
+}
+
+.banner h1 {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto 2em;
+}
+
+.banner h1 a {
+  display: block;
+  text-indent: -9999px;
+  width: 120px;
+  height: 120px;
+  background-image: url('clojure-bridge-logo.png');
+  -webkit-transition: transform .1s ease;
+  transition: transform .1s ease;
+}
+
+.banner h1 a:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.summary {
+  max-width: 620px;
+  margin: 0 auto;
+  padding: 0 10px;
+  font-size: 34px;
+  font-style: italic;
+  text-align: center;
+}
+
+.summary a {
+  color: #666;
+}
+
+.main {
+  max-width: 620px;
+  margin: 1em auto;
+}
+
+.event {
+  background: #eee;
+  padding: 1em 0 0;
+  margin: 2em 0;
+}
+
+.event .header {
+  padding: 1em;
+}
+
+.event .register {
+  display: block;
+  width: 100%;
+  margin-top: 1em;
+  padding: 1em;
+  background-color: #2c9b2c;
+  color: #fff;
+  font-size: 125%;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 2px 2px 0 #3d592d;
+}
+.event .register:hover {
+  background-color: #4aa84a;
+}
+
+body > .footer {
+  margin: 0 0 1em;
+  text-align: center;
+  font-size: 90%;
+  color: #888;
+}
+body > .footer a {
+  color: #666;
+}
