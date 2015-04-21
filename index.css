@@ -2,6 +2,7 @@ html {
   font-family: 'Source Sans Pro', 'Helvetica Neue', sans-serif;
   line-height: 1.6;
   color: #333;
+  background: #eee;
 }
 
 a {
@@ -41,7 +42,7 @@ p {
   background-size: cover;
   padding: 3em;
   margin-bottom: 2em;
-  box-shadow: 1px 1px 1px #ccc;
+  box-shadow: 2px 2px 1px #bbb;
 }
 
 .banner h1 {
@@ -87,10 +88,10 @@ p {
 }
 
 .event {
-  background: #eee;
+  background: #fff;
   padding: 1em 0 0;
   margin: 2em 0;
-  box-shadow: 1px 1px 1px #ccc;
+  box-shadow: 2px 2px 1px #bbb;
 }
 
 .event .header {
