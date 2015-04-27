@@ -58,13 +58,6 @@ p {
   height: 100%;
   background-image: url('clojure-bridge-logo-big.png');
   background-size: contain;
-  -webkit-transition: transform .1s ease;
-  transition: transform .1s ease;
-}
-
-.banner h1 a:hover {
-  -webkit-transform: rotate(-10deg);
-  transform: rotate(-10deg);
 }
 
 .summary {
